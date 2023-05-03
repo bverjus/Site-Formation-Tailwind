@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page SEO</title>
+    <link rel="stylesheet" href="/dist/output.css">
+  </head>
+  <body>
+
+    <section class="bg-[url('/ressources/stylish-mesh-bg.jpg')] bg-cover relative">
+
+      <!-- Menu -->
+      <nav class="fixed top-0 z-20 bg-gray-50 p-4 w-full grid grid-cols-none shadow-md md:max-w-7xl md:grid-cols-menu md:shadow-none md:relative md:mx-auto md:bg-transparent">
+        <div class="flex justify-between items-center md:justify-center">
+          <a href="#accueil">
+            <img
+            src="ressources/RocketLogo.svg"
+            alt="rocket logo"
+            class="w-12">
+          </a>
+
+          <button class="icone-toggle bg-white rounded-md p-2 inline-flex items-center justify-center ring-1 ring-black ring-opacity-20 md:hidden">
+            <img src="ressources/menu.svg" alt="icône hamburger" class="h-6 w-6">
+          </button>
+        </div>
+
+        <ul class="toggle-menu hidden px-1 pt-4 bg-gray-50 flex flex-col md:pt-0 md:flex md:bg-transparent md:flex-row md:space-x-10 md:w-auto md:items-center md:justify-center">
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#acceuil" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Accueil</a>
+          </li>
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#services" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Services</a>
+          </li>
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#tarifs" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Nos tarifs</a>
+          </li>
+          <li class="py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#contact" class="font-medium text-lg text-zinc-800 hover:text-gray-900">Contact</a>
+          </li>
+        </ul>
+
+        <div class="toggle-menu hidden flex justify-center items-center mt-6 md:mt-0 md:flex md:justify-end">
+          <a href="#" class="shadow-md px-6 py-2 border font-medium rounded-md text-indigo-600 bg-white text-center w-40 hover:bg-gray-50">Log in</a>
+        </div>
+      </nav>
+
+      <!-- Accueil -->
+      <div class="pt-40 pb-56 text-center px-4 sm:pb-80 md:pt-20">
+        <h1 class="text-3xl font-extrabold text-gray-950 uppercase md:text-4xl  lg:text-5xl xl:text-6xl">Faites décoller votre <span class="text-blue-600">business en ligne</span></h1>
+        <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ad cumque nostrum voluptatum? Amet, inventore.</p>
+
+        <div class="mt-12 flex flex-col items-center sm:flex-row sm:justify-center">
+          <button class="py-2 w-1/2 shadow-md bg-blue-600 hover:bg-blue-700 rounded-md text-gray-50 font-semibold mb-4 sm:mr-2 sm:w-52 sm:py-3 lg:py-4">Commencer 🚀</button>
+          <button class="py-2  w-1/2 shadow-md rounded-md bg-white hover:bg-gray-50 text-gray-900 font-semibold mb-4 sm:ml-2 sm:w-52 sm:py-3 lg:py-4">Démo 🕹️</button>
+        </div>
+      </div>
+
+      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
+        <a href="#services" class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-100 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16">
+          <svg class="w-6 h-6 text-violet-500 sm:w-8 " fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- Call To Action -->
+    <section id="services" class="relative flex flex-col lg:flex-row">
+
+      <div class="cta-striper-bg px-10 pb-16 pt-10 w-full order-2 text-center md:py-32 lg:w-1/2 lg:order-1">
+
+        <h2 class="font-extrabold text-gray-800 text-2xl sm:text-3xl md:text-5xl">
+          <span class="block">PASSEZ À L'ACTION</span>
+          <span class="block text-blue-600">Boostez votre SEO</span>
+        </h2>
+        <p class="mt-3 text-md mx-auto text-gray-800 max-w-xs sm:text-xl md:mt-5 md:max-w-md">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, impedit.
+        </p>
+        <a href="#" class="min-w-[200px] bg-blue-600 mt-5 mx-auto inline-block px-8 py-3 border-transparent font-medium rounded-md text-white text-md md:mt-10 md:text-xl">
+          Essayez-le 🔥
+        </a>
+
+      </div>
+
+      <div class="h-96 w-full relative overflow-hidden order-1 lg:static lg:w-1/2 lg:h-full lg:order-2">
+        <img src="ressources/hommeTravail.jpg" alt="homme au travail" class="absolute w-full h-full object-cover object-center lg:w-1/2">
+      </div>
+
+    </section>
+
+    <!-- Content -->
+
+    <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-center py-20">
+      <h2 class="text-gray-50 font-extrabold text-3xl md:text-4xl lg:text-5xl">10K+ Développeurs déjà convaincus</h2>
+      <p class="mt-3 px-4 text-md text-indigo-200 max-w-md mx-auto sm:text-xl sm:mt-4 md:max-w-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo similique fugiat</p>
+      <div class="mt-12 md:flex md:flex-row md:justify-center space-y-6 md:space-y-0 md:space-x-8">
+        <div>
+          <p class="text-gray-50 text-3xl font-extrabold md:text-4xl lg:text-5xl">100%</p>
+          <p class="pt-2 text-md text-indigo-200 font-semibold sm:text-lg">En ligne</p>
+        </div>
+        <div>
+          <p class="text-gray-50 text-3xl font-extrabold md:text-4xl lg:text-5xl">24/7</p>
+          <p class="pt-2 text-md text-indigo-200 font-semibold sm:text-lg">Support</p>
+        </div>
+        <div>
+          <p class="text-gray-50 text-3xl font-extrabold md:text-4xl lg:text-5xl">100k</p>
+          <p class="pt-2 text-md text-indigo-200 font-semibold sm:text-lg">Projets</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="text-center max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8">
+
+      <h1 class="text-5xl text-black font-extrabold xl:text-6xl">Prices range</h1>
+      <hr class="w-1/4 mt-5 mx-auto border-slate-900">
+      <p class="text-xl mt-5 text-gray-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit Molestiae obcaecati.</p>
+    
+      <div class="mt-8 flex flex-col flex-wrap justify-center items-center md:flex-row">
+        <div class="min-h-[450px] w-72 flex flex-col shadow-md ring-1 ring-zinc-300 border-gray-200 rounded-lg mt-7 mx-4 px-6 py-4 text-left">
+          <div class="mb-5">
+            <h2 class="text-2xl font-bold text-gray-900">Basic</h2>
+            <p class="text-md text-gray-800">Fill your basic needs</p>
+            <p class="mt-2">
+              <span class="font-extrabold text-4xl text-gray-900">12€</span>
+              <span class="text-md font-bold">/month</span>
+            </p>
+            <p class="text-xs font-medium text-gray-900 tracking-wide uppercase">Included:</p>
+          </div>
+
+          <ul>
+            <li class="flex mt-4">
+              <img src="././ressources/checked.svg" alt="checked" class="w-5">
+              <p class="ml-2 text-sm">Lorem ipsum, dolor sit amet</p>
+            </li>
+            <li class="flex mt-4">
+              <img src="././ressources/checked.svg" alt="checked" class="w-5">
+              <p class="ml-2 text-sm">Lorem ipsum, dolor sit amet</p>
+            </li>
+            <li class="flex mt-4">
+              <img src="././ressources/checked.svg" alt="checked" class="w-5">
+              <p class="ml-2 text-sm">Lorem ipsum, dolor sit amet</p>
+            </li>
+          </ul>
+          <button class="w-full bg-gray-800 text-white rounded-md h-10 font-bold mt-auto hover:bg-gray-900">Subscribe to plan</button>
+        </div>
+        <div class="min-h-[450px] w-72 flex flex-col shadow-md ring-1 ring-zinc-300 border border-gray-200 rounded-lg mt-7 mx-4 px-6 py-4 text-left">
+          <div class="mb-5">
+            <h2 class="text-2xl font-bold text-gray-900">Freelance</h2>
+            <p class="text-md text-gray-800">Go to the next level</p>
+            <p class="mt-2">
+              <span class="text-4xl font-extrabold text-gray-900">29€</span>
+              <span class="font-medium text-black-800">/month</span>
+            </p>
+            <p class="text-xs font-medium text-gray-900 tracking-wide uppercase">Included :</p>
+          </div>
+          <div class="flex flex-grow flex-col">
+            <ul>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+            </ul>
+            <button class="w-full bg-gray-800 text-white rounded-md h-10 font-bold mt-auto hover:bg-gray-900">Subscribe to plan</button>
+          </div>
+        </div>
+        <div class="min-h-[450px] w-72 flex flex-col shadow-md ring-1 ring-zinc-300 border border-gray-200 rounded-lg mt-7 mx-4 px-6 py-4 text-left">
+          <div class="mb-5">
+            <h2 class="text-2xl font-bold text-gray-900">Professional</h2>
+            <p class="text-md text-gray-800">Enter the pro world</p>
+            <p class="mt-2">
+              <span class="text-4xl font-extrabold text-gray-900">99€</span>
+              <span class="font-medium text-black-800">/month</span>
+            </p>
+            <p class="text-xs font-medium text-gray-900 tracking-wide uppercase">Included :</p>
+          </div>
+          <div class="flex flex-grow flex-col">
+            <ul>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="flex space-x-3 py-2">
+                <img src="./ressources/checked.svg" alt="checked icon" class="w-5">
+                <span class="text-sm text-gray-800">Lorem ipsum dolor sit amet.</span>
+              </li>
+            </ul>
+            <button class="w-full bg-gray-800 text-white rounded-md h-10 font-bold mt-auto hover:bg-gray-900">Subscribe to plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section preuve sociale  -->
+    <div class="divider-bg">
+      <div class="max-w-4xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+
+        <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 text-center md:text-5xl">
+          Ces entreprises nous font confiance
+        </h2>
+
+        <div class="mt-10 flex justify-center items-center space-x-5 md:space-x-10">
+          <img src="ressources/IBM.png" alt="logo ibm" class="w-14 md:w-24">
+          <img src="ressources/apple-logo.png" alt="logo apple" class="w-6 md:w-12">
+          <img src="ressources/github-logo.png" alt="logo github" class="w-14 md:w-28">
+          <img src="ressources/Audi.png" alt="logo audi" class="w-14 md:w-24">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Formulaire -->
+    <section id="contact" class="bg-gray-50 pb-32 md:pb-40 ">
+      <h2 class="text-3xl font-semibold text-center pt-12 pb-4">Rentrons en contact</h2>
+      <hr class="bloc mx-auto bg-gray-600 h-1 mb-10 w-44">
+
+      <form class="space-y-6 relative bg-white max-w-3xl mx-auto py-16 px-4 sm:px-6 lg:px-8 xl pl-12">
+
+        <div>
+          <label for="nom" class="text-gray-500 mb-2 block">Nom complet</label>
+          <input type="text" id="nom" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md">
+        </div>
+
+        <div>
+          <label for="prenom" class="text-gray-500 mb-2 block">Prénom</label>
+          <input type="text" id="prenom" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md">
+        </div>
+
+        <div>
+          <label for="entreprise" class="text-gray-500 mb-2 block">Votre entreprise</label>
+          <input type="text" id="entreprise" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md">
+        </div>
+
+        <div>
+          <label for="message" class="text-gray-500 mb-2 block">Votre message</label>
+          <textarea type="text" id="message" placeholder="Votre nom" class="block w-full ring-1 ring-gray-200 shadow-sm py-3 px-4 placeholder-gray-500 border-gray-300 rounded-md"></textarea>
+        </div>
+
+        <button class="py-3 px-6 border-transparent shadow-sm text-base font-medium rounded-md text-white bg-blue-700">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-800 text-white text-center py-5">
+      <h3 class="text-3xl pb-5">Retrouvez-nous ici</h3>
+      <div class="mb-5 space-x-6 flex justify-center">
+
+        <a href="#">
+          <img src="ressources/fb.svg" alt="" class="w-6">
+        </a>
+        <a href="#">
+          <img src="ressources/instagram.svg" alt="" class="w-6">
+        </a>
+        <a href="#">
+          <img src="ressources/twitter.svg" alt="" class="w-6">
+        </a>
+        <a href="#">
+          <img src="ressources/githubpetitlogo.svg" alt="" class="w-6">
+        </a>
+      </div>
+      <hr class="border-1 border-gray-100 w-60 mx-auto">
+      <p class="text-center mt-8 text-base text-gray-400">&copy; 2022 SEOTOOL, TOUS DROITS RÉSERVÉS</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
